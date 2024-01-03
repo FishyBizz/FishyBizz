@@ -1,0 +1,53 @@
+----SIMPLE REVIEW OF BASIC SQL PROPERTIES----
+
+SELECT name FROM sqlite_master WHERE type = table -> shows names of tables
+
+SELECT sql FROM sqlite_master WHERE name = 'table_name' -> shows structure of stated table
+
+
+SELECT * FROM -- LIMIT 3
+-SELECT -> SELECT <colomn>, <column>, ...
+-FROM -> FROM <table> 
+-LIMIT -> # of rows to display
+-(*) -> all columns
+
+SELECT * FROM -- WHERE <clause>
+
+FROM -- WHERE <clause> LIKE '%rn'
+-(%) -> any # of characters
+-(_) -> (_) # of characters
+
+COUNT(<column>) -> returns # of non-NULL rows
+-to check if a value is NULL, use IS & IS NOT
+
+CASE 
+  WHEN <clause> THEN <result>
+  WHEN <clause> THEN <result>
+  ELSE <result>
+END
+ex. 
+SELECT 
+  COUNT(CASE WHEN county = 'Harris' THEN 1
+      ELSE NULL END),
+  COUNT(CASE WHEN county = 'Baxter' THEN 1
+      ELSE NULL END)
+FROM ----
+
+ORDER BY block
+-ASC 
+-DESC
+-ORDER BY -- DESC
+
+there are MIN, MAX, and AVG aggregate functions
+SELECT MIN(ex_age) FROM --
+
+SELECT DISTINCT -
+
+GROUP BY block
+SELECT -- FROM -- GROUP BY county HAVING COUNT(*) > 2
+
+JOIN block -> allows info from other table
+<table> JOIN <table2> ON 
+-there's LEFT JOIN & OUTER JOIN
+-LEFT JOIN preserves all first tables rows even if none of table2 match
+-OUTER JOIN preserves all rows of both tables even if none match
