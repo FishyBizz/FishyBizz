@@ -1,4 +1,4 @@
-----SIMPLE REVIEW OF BASIC SQL PROPERTIES----
+----SIMPLE REVIEW OF BASIC SQL PROPERTIES----              SQL Murder Mystery -> good refresher
 
 SELECT name FROM sqlite_master WHERE type = table -> shows names of tables
 
