@@ -3,5 +3,8 @@
 - 🌱 I’m currently re-learning my familiarity with github lol
 - 📫 Reach me at school - fishe390@msu.edu
                 personal - fishybizz01@gmail.com
+- Lil SQL cheatsheet available
+                
+
 
 
