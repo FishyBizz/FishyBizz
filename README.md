@@ -4,7 +4,10 @@
 - 📫 Reach me at school - fishe390@msu.edu
                 personal - fishybizz01@gmail.com
 - Lil SQL cheatsheet available
-                
+To do:
+- Cloud Computing (AWS)
+- codepen.io for brushing up on javascript
+- 
 
 
 
